@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+body {
+    background-color: #041821;
+}
+
+section {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 3%;
+}
+
+#Titre1 {
+    color: white;
+    margin: 0px;
+    width: 80vw;
+    margin: auto;
+    font-weight: bold;
+}
+
+#Titre2 {
+    color: rgb(23, 213, 154);
+    margin: 0px;
+    width: 80vw;
+    margin: auto;
+    font-weight: bold;
+}
+
+#texte1 {
+    color: grey;
+    font-size: 18px;
+    width: 50%;
+    margin-left: 9%;
+    margin-top: 2%;
+    padding: 4px;
+}
+
+#points {
+    color: rgb(23, 213, 154);
+}
+
+.grid-container {
+    display: grid;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+#div1 {
+    padding-left: 12px;
+    margin: 0;
+    width: 50%;
+}
+
+header div p {
+    color: white;
+    font-family: "Yeseva One", sans-serif;
+    font-size: 25px;
+}
+
+#div2 {
+    padding: 8px;
+    text-align: right;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#div2 i {
+    margin-left: 25px;
+    color: white;
+}
+
+#ul1 {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    color: white;
+    font-family: "Monteserat", sans-serif;
+}
+
+.li1 {
+    margin-right: 20px;
+    text-align: center;
+    display: block;
+}
+
+#vert-back {
+    background-color: rgb(23, 213, 154);
+    padding: 5px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-size: 20px;
+}
+
+footer #footer {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.grid-container img {
+    width: 98%;
+    height: auto;
+    display: block;
+    padding: 5px;
+}
+
+@media (min-width: 1025px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+        width: 80vw;
+        margin: auto;
+    }
+
+    .grid-parent {
+        padding-top: 30px;
+        margin: 40px auto;
+    }
+
+    .grid-item {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .grid-item img {
+        max-width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .grid-parent {
+        padding-top: 30px;
+        margin: 40px auto;
+    }
+
+    .grid-item img {
+        max-width: 140px;
+        height: 140px;
+    }
+
+    .grid-item {
+        max-width: 140px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 640px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-parent {
+        padding-top: 30px;
+        margin: 40px auto;
+    }
+
+    .grid-item img {
+        max-width: 140px;
+        height: 140px;
+    }
+
+    .grid-item {
+        max-width: 140px;
+        height: 140px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    #div1 {
+        width: 100%;
+        text-align: center;
+        margin: 0%;
+    }
+
+    #div2 {
+        width: 100%;
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .grid-container img:nth-child(n + 10) {
+        display: none;
+    }
+}
+
+#div2 .fa-brands {
+    color: white; /* Change la couleur à blanc */
+}
+#div2 .fa-solid {
+    color: white; /* Change la couleur à blanc */
+}
