@@ -73,6 +73,7 @@ header div p {
     width: 50%;
     margin-top: auto;
     margin-bottom: auto;
+    justify-content: space-between;
 }
 
 #div2 i {
